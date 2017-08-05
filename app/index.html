@@ -1,44 +1,144 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Leo Delalic - Home</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <style>
-      nav {
-        background-color: #D34F73;
-        color: #FDFFF7;
-      }
-    </style>
-  </head>
-  <body>
+<head>
+	<meta charset="utf-8">
+	<title>Leo Delalic</title><!-- Compiled and minified CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<style>
+	     nav {
+	       background-color: #D34F73;
+	       color: #FDFFF7;
+	     }
+	</style>
+</head>
+<body>
+	<!-- navbar -->
+	<nav>
+		<div class="nav-wrapper">
+			<a class="brand-logo" href="/">Leo Delalic</a> <a class="button-collapse pulse" data-activates="mobile-demo" href="/"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="../pages/about.html">About</a>
+				</li>
+				<li>
+					<a href="../pages/gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="../pages/contact.html">Contact</a>
+				</li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="../pages/about.html">About</a>
+				</li>
+				<li>
+					<a href="../pages/gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="../pages/contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-    <nav>
-       <div class="nav-wrapper">
-         <a href="/" class="brand-logo">Leo Delalic</a>
-         <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-         <ul class="right hide-on-med-and-down">
-           <li><a href="/">Home</a></li>
-           <li><a href="../pages/about.html">About</a></li>
-           <li><a href="../pages/gallery.html">Gallery</a></li>
-           <li><a href="../pages/contact.html">Contact</a></li>
-         </ul>
-         <ul class="side-nav" id="mobile-demo">
-           <li><a href="/">Home</a></li>
-           <li><a href="../pages/about.html">About</a></li>
-           <li><a href="../pages/gallery.html">Gallery</a></li>
-           <li><a href="../pages/contact.html">Contact</a></li>
-         </ul>
-       </div>
-     </nav>
+  <!-- container -->
+	<div class="container">
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-  <script>
-    $(".button-collapse").sideNav();
-  </script>
-  </body>
-<html>
+    <!-- about -->
+		<div class="row">
+
+			<div class="col s12">
+				<p class="pink-text text-darken-1">ABOUT</p>
+			</div>
+
+			<div class="col s12">
+				<p class="flow-text">I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.</p>
+			</div>
+
+		</div>
+
+    <!-- photos -->
+		<div class="row">
+
+			<div class="col s12">
+				<p class="pink-text text-darken-1">PHOTOS</p>
+			</div>
+
+			<div class="col s12 m6">
+
+				<div class="card large">
+
+					<div class="card-image">
+						<img src="assets/tenton-2nd-barn-1.jpg">
+              <span class="card-title">
+                Cool Farm
+              </span>
+					</div>
+
+					<div class="card-content">
+						<p>What need is there to weep over parts of life? The whole of it calls for tears.</p>
+					</div>
+
+				</div> <!-- card large -->
+			</div><!-- col s12 m6 -->
+
+			<div class="col s12 m6">
+				<div class="card large">
+					<div class="card-image">
+						<img src="assets/fire-by-the-highway-1.jpg"> <span class="card-title">Skies And Shit</span>
+					</div>
+					<div class="card-content">
+						<p>It's not what happens to you, but how you react to it that matters.</p>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of row -->
+
+    <!-- end of photos -->
+    <div class="row">
+
+			<div class="col s12">
+				<p class="pink-text text-darken-1">VIDEOS</p>
+			</div>
+
+      <div class="col s12">
+        <video class="responsive-video" controls>
+          <source src="assets/old city hall.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div> <!-- end of row -->
+
+    <div class="row">
+
+			<div class="col s12">
+				<p class="pink-text text-darken-1">CONTACT</p>
+			</div>
+
+      <div class="col s12">
+        <p>yo wtf do i put here?</p>
+      </div>
+
+    </div> <!-- end of row -->
+
+
+  </div> <!-- container -->
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js">
+	</script>
+	<script>
+	   $(".button-collapse").sideNav();
+	</script>
+</body>
+</html>

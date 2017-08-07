@@ -18,7 +18,7 @@ function imageCardTemplate(ind, dataCaption, cardTitle, cardContent) {
   return `<div class="col s12 m6">
             <div class="card large">
               <div class="card-image">
-                <img class="materialboxed" src="../assets/img/img${ind}.jpg" data-caption="${dataCaption}">
+                <img class="materialboxed" src="assets/img/img${ind}.jpg" data-caption="${dataCaption}">
                 <span class="card-title">
                   ${cardTitle}
                 </span>
@@ -33,7 +33,7 @@ function imageCardTemplate(ind, dataCaption, cardTitle, cardContent) {
 function videoTemplate(ind) {
   return `<div class="col s12">
             <video class="responsive-video" controls>
-              <source src="../assets/videos/vid${ind}.mp4" type="video/mp4">
+              <source src="assets/videos/vid${ind}.mp4" type="video/mp4">
             </video>
           </div>
           <br>

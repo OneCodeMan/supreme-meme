@@ -11,7 +11,7 @@ function imageCardTemplate(ind, dataCaption, cardTitle, cardContent) {
   return `<div class="col s12 m6">
             <div class="card large">
               <div class="card-image">
-                <img class="materialboxed" src="../assets/img/img${ind}.jpg" data-caption="${dataCaption}">
+                <img class="materialboxed" src="../assets/img/img${ind}.png" data-caption="${dataCaption}">
                 <span class="card-title">
                   ${cardTitle}
                 </span>

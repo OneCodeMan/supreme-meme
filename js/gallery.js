@@ -1,6 +1,6 @@
 let $photoGallery = $('.photo-gallery');
 let imageNum = 1;
-let numImages = 17;
+let numImages = 11;
 
 // don't hardcode this somehow
 for (let i = 1; i < numImages + 1; i++) {
